@@ -24,9 +24,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'django-insecure-vzo(u!@&=53-$#%3faxanlacz@09hn)%)wafj06=%j1t^m$r(7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["saveyoutubedownload.herokuapp.com" , "localhost"]
+ALLOWED_HOSTS = ["youtube-saver.herokuapp.com" , "localhost"]
 
 
 # Application definition
